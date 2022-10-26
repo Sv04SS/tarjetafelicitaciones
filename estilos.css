@@ -1,0 +1,109 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/8e/62/ad/8e62ad609d2da4642df12c36c4a2dd78.gif);
+    background-size: cover;
+}
+
+
+
+.btn-twitter{
+    background-color: #8531f2;
+    color: white;
+}
+
+a.btn-twitter:hover{
+    color: white;
+    box-shadow: -2px 3px 6px rgb(138, 38, 252);
+}
+
+/* GLOBAL */
+
+body, html, .container, .row{
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+/*
+
+    ESTILOS FORMULARIO
+
+*/
+
+div.col-lg-4
+{
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom, #8e23b8, #d772ff) 1;
+}
+
+button.btn-success
+{
+    margin: 10px 0px;
+    background-image: linear-gradient(to bottom, #860397, #d56df1);
+    border: 0;
+}
+
+div.form-group{
+    margin: 10px auto;
+}
+
+/*
+
+    ESTILOS TARJETA
+    
+*/
+
+.col-lg-7 .card-header, .card-footer{
+    background-image: linear-gradient(to right, #b922e7, #580786);
+    color: white;
+    font-weight: 700;
+}
+
+.card-body
+{
+    background-image: url('https://64.media.tumblr.com/d573db21c6cf1d179a6961f49f3f26c1/tumblr_pkp9xonxMC1uzwgsuo1_400.gifv');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card-content
+{
+    background-color: white;
+    width: fit-content;
+    margin: 5px auto;
+    padding: 50px 20px;
+    border: 10px solid rgb(173, 13, 236);
+}
+
+.card-content img
+{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin: 0px auto 25px auto;
+}
+
+.card-title
+{
+    font-weight: 700;
+    background: linear-gradient(to bottom,#a21fee, #cd83ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Student
+{
+    font-weight: 700;
+}
+
+.Aprendido
+{
+    font-size: 20px;
+}
